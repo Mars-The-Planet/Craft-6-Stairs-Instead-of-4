@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mars.slabstoblocks.SixStairs"
+      "com.mars.sixstairs.SixStairs"
     ]
   },
   "mixins": [
