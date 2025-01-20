@@ -1,6 +1,14 @@
 {
   "pack": {
     "description": "${mod_name}",
-    "pack_format": 8
+    "pack_format": 48
+  },
+  "filter": {
+    "block": [
+        {
+        "namespace": "minecraft",
+        "path": "recipe/.*stairs.json"
+      }
+    ]
   }
 }
