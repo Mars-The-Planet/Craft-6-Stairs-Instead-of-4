@@ -13,7 +13,5 @@ public class MixinTitleScreen {
 
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        Constants.LOG.info("This line is printed by the Craft 6 Stairs Instead of 4 mixin from Forge!");
-        Constants.LOG.info("MC Version: {}", Minecraft.getInstance().getVersionType());
     }
 }
