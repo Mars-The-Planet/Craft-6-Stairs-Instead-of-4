@@ -73,6 +73,14 @@ dependencies {
     implementation "maven.modrinth:deimos:${project.minecraft_version}-${project.deimos_version}-forge"
 }
 
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'MixinConfigs'            : "${mod_id}.mixins.json"
+        ])
+    }
+}
+
 publishing {
     publications {
         mavenJava(MavenPublication) {

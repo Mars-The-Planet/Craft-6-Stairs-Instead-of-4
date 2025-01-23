@@ -22,14 +22,14 @@ public class CommonClass {
                     Lists.newArrayList(
                             '#'
                     ),
-                    Lists.newArrayList(ResourceLocation.parse(set[0])),
+                    Lists.newArrayList(new ResourceLocation(set[0])),
                     Lists.newArrayList("item"),
                     Lists.newArrayList(
                             "#  ",
                             "## ",
                             "###"
                     ),
-                    ResourceLocation.parse(set[1]), SixStairsConfig.stairAmount);
+                    new ResourceLocation(set[1]), SixStairsConfig.stairAmount);
         }
     }
 }
