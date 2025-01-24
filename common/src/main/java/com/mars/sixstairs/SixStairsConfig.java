@@ -10,12 +10,9 @@ public class SixStairsConfig extends DeimosConfig {
     @Entry public static List<String> blockStairsList = Lists.newArrayList(
             "minecraft:acacia_planks, minecraft:acacia_stairs",
             "minecraft:andesite, minecraft:andesite_stairs",
-            "minecraft:bamboo_mosaic, minecraft:bamboo_mosaic_stairs",
-            "minecraft:bamboo_planks, minecraft:bamboo_stairs",
             "minecraft:birch_planks, minecraft:birch_stairs",
             "minecraft:blackstone, minecraft:blackstone_stairs",
             "minecraft:bricks, minecraft:brick_stairs",
-            "minecraft:cherry_planks, minecraft:cherry_stairs",
             "minecraft:cobbled_deepslate, minecraft:cobbled_deepslate_stairs",
             "minecraft:cobblestone, minecraft:cobblestone_stairs",
             "minecraft:crimson_planks, minecraft:crimson_stairs",
