@@ -3,10 +3,7 @@ package com.mars.sixstairs;
 import com.google.common.collect.Lists;
 import com.mars.deimos.config.DeimosConfig;
 import com.mars.deimos.datagen.DeimosRecipeGenerator;
-import com.mars.sixstairs.platform.Services;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Items;
 
 import static com.mars.sixstairs.Constants.MOD_ID;
 
