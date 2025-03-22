@@ -38,7 +38,7 @@ neoForge {
 }
 
 dependencies {
-    implementation "maven.modrinth:deimos:${project.minecraft_version}-${project.deimos_version}-neoforge"
+    implementation "maven.modrinth:deimos:${project.minecraft_version}-neoforge-${project.deimos_version}"
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
