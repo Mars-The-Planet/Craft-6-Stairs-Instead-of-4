@@ -70,5 +70,8 @@ public class SixStairsConfig extends DeimosConfig {
             "minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper_stairs",
             "minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper_stairs",
             "minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper_stairs",
-            "minecraft:weathered_cut_copper, minecraft:weathered_cut_copper_stairs");
+            "minecraft:weathered_cut_copper, minecraft:weathered_cut_copper_stairs",
+            "minecraft:resin_bricks, minecraft:resin_brick_stairs",
+            "minecraft:pale_oak_planks, minecraft:pale_oak_stairs"
+    );
 }
